@@ -142,11 +142,17 @@ button:hover {
   color: var(--sec-text-color-gray);
 }
 /* Main-index*/
+
+/*Title section*/
 .title {
   width: 100%;
   height: 600px;
   padding: 200px 0px 200px 0px;
   background: var(--sec-background-color-dark);
+  background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(../images/title-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 h1 {
@@ -186,7 +192,7 @@ h1 {
   background: #188ce8;
   color: var(--text-color-white);
 }
-
+/*group-1*/
 .group-1-list {
   display: flex;
   justify-content: space-evenly;
@@ -217,7 +223,7 @@ h1 {
 
   color: var(--sec-text-color-gray);
 }
-
+/*what-we-do*/
 .what-we-do {
   padding-top: 100px;
 }
@@ -241,6 +247,7 @@ h1 {
   margin: 50px 0px 0px 0px;
   list-style: none;
 }
+/*our-team*/
 .our-team {
   width: 100%;
   height: 648px;
@@ -331,6 +338,9 @@ h1 {
 }
 .filter-button:hover {
   background: var(--additional-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -352,6 +362,10 @@ h1 {
   flex-basis: calc(100%-2 * 30px) / 3;
   background: var(--main-backroung-color);
   border: 1px solid #eeeeee;
+}
+.project-button:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .row-title {
   margin-top: 20px;
