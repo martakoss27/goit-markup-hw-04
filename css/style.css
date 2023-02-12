@@ -137,7 +137,6 @@ button:hover {
   height: 24px;
   margin-right: 10px;
 }
-
 .header-contact-link-mail {
   font-family: "Roboto";
   font-style: normal;
@@ -359,6 +358,9 @@ h1 {
 }
 .team-icon:hover {
   background-color: var(--additional-color);
+
+  stroke: var(--text-color-white);
+  fill: var(--text-color-white);
 }
 
 /*Main-portfolio*/
@@ -454,6 +456,9 @@ footer {
   background: var(--sec-background-color-dark);
 }
 .footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 1200px;
   margin: auto;
 }
@@ -468,9 +473,6 @@ footer {
   letter-spacing: 0.03em;
 
   color: var(--additional-color);
-}
-.footer-address-box {
-  margin-top: 5px;
 }
 .footer-address {
   margin: 0;
@@ -498,4 +500,51 @@ footer {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-2 {
+  width: 206px;
+  height: auto;
+  margin: 20px 0px 0px 70px;
+}
+.find-us-on {
+  width: fit-content;
+  height: 16px;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-white);
+}
+.footer-social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 206px;
+  padding: 0;
+  margin: 20px 0px 0px 0px;
+
+  list-style: none;
+}
+.footer-2-item {
+  width: 44px;
+  height: 44px;
+
+  background-color: #ffffff1a;
+  border-radius: 50%;
+}
+.footer-2-item:hover {
+  background-color: var(--additional-color);
+}
+.footer-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+.footer-icon:hover {
+  stroke: var(--text-color-white);
+  fill: var(--text-color-white);
 }
