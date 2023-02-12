@@ -269,7 +269,7 @@ h1 {
 /*our-team*/
 .our-team {
   width: 100%;
-  height: 648px;
+  height: auto;
   background: var(--third-backround-color-gray);
 }
 .our-team-header {
@@ -298,7 +298,7 @@ h1 {
 }
 .team-cards {
   width: 270px;
-  height: 368px;
+  height: auto;
 
   opacity: 0.86;
   background: var(--main-backroung-color);
@@ -327,6 +327,23 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px 32px;
+}
+.team-icon {
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+}
+.team-icon:hover {
+  background-color: var(--additional-color);
+}
+
 /*Main-portfolio*/
 .portfolio {
   height: fit-content;
