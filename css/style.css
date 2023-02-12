@@ -210,6 +210,10 @@ h1 {
   background: var(--third-backround-color-gray);
   border-radius: 4px;
 }
+.group-1-icon {
+  width: 70px;
+  height: 70px;
+}
 .group-1-header {
   font-family: "Roboto";
   font-style: normal;
@@ -233,10 +237,7 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--sec-text-color-gray);
 }
-.icon-antenna {
-  width: 70px;
-  height: 70px;
-}
+
 /*what-we-do*/
 .what-we-do {
   padding-top: 100px;
