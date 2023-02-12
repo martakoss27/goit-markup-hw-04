@@ -120,7 +120,24 @@ button:hover {
   list-style-type: none;
   justify-content: space-evenly;
   padding: 0;
+  height: auto;
 }
+.header-contact-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+.header-contact-list-item:hover {
+  stroke: var(--additional-color);
+  cursor: var(--cursor);
+}
+.header-contact-list-icon {
+  width: 16px;
+  height: 24px;
+  margin-right: 10px;
+}
+
 .header-contact-link-mail {
   font-family: "Roboto";
   font-style: normal;
