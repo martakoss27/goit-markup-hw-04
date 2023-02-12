@@ -200,6 +200,16 @@ h1 {
   padding: 0;
   margin: 0;
 }
+.group-1-list-item {
+  width: 270px;
+  height: 251px;
+}
+.group-1-icon-box {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .group-1-header {
   font-family: "Roboto";
   font-style: normal;
@@ -212,15 +222,15 @@ h1 {
   color: var(--main-text-color);
 }
 .group-1-content {
+  height: 97px;
+  margin: 10px 10px 0px 0px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  height: 97px;
-  margin: 10px 10px 0px 0px;
-
   color: var(--sec-text-color-gray);
 }
 /*what-we-do*/
