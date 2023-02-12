@@ -350,6 +350,16 @@ h1 {
   width: 206px;
   height: 44px;
   margin: 16px 32px 30px 32px;
+  padding: 0;
+  list-style: none;
+}
+.team-social-media-item {
+  width: 44px;
+  height: 44px;
+}
+.team-social-media-item:hover {
+  background-color: var(--additional-color);
+  border-radius: 50%;
 }
 .team-icon {
   width: 44px;
@@ -357,10 +367,8 @@ h1 {
   padding: 11px;
 }
 .team-icon:hover {
-  background-color: var(--additional-color);
-
-  stroke: var(--text-color-white);
   fill: var(--text-color-white);
+  stroke: var(--text-color-white);
 }
 
 /*Main-portfolio*/
