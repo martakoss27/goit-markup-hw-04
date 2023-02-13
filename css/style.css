@@ -590,6 +590,7 @@ footer {
 .footer-2-item:hover {
   background-color: var(--additional-color);
   --color1: var(--text-color-white);
+  cursor: var(--cursor);
 }
 .footer-icon {
   width: 44px;
