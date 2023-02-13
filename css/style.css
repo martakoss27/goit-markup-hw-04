@@ -367,10 +367,53 @@ h1 {
   padding: 11px;
 }
 .team-icon:hover {
-  fill: var(--text-color-white);
+  --color1: var(--text-color-white);
   stroke: var(--text-color-white);
+  cursor: var(--cursor);
 }
+/*Regular Customers*/
+.regular-customers-header {
+  display: block;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.regular-customers-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
 
+  list-style: none;
+}
+.regular-customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.regular-customers-item:hover {
+  border: 1px solid var(--additional-color);
+  border-radius: 4px;
+
+  --color1: var(--additional-color);
+  --color2: var(--additional-color);
+  cursor: var(--cursor);
+}
+.regular-customers-icon {
+  width: 106px;
+  height: 60px;
+}
 /*Main-portfolio*/
 .portfolio {
   height: fit-content;
@@ -546,13 +589,10 @@ footer {
 }
 .footer-2-item:hover {
   background-color: var(--additional-color);
+  --color1: var(--text-color-white);
 }
 .footer-icon {
   width: 44px;
   height: 44px;
   padding: 12px;
-}
-.footer-icon:hover {
-  stroke: var(--text-color-white);
-  fill: var(--text-color-white);
 }
