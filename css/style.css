@@ -33,7 +33,7 @@ a:link {
 }
 a:hover {
   color: var(--additional-color);
-  text-decoration: underline;
+  text-decoration: none;
   cursor: var(--cursor);
 }
 button:hover {
@@ -461,15 +461,15 @@ h1 {
   padding-top: 34px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 
-.project-button {
-  flex-basis: calc(100%-2 * 30px) / 3;
+.project-box {
+  flex-basis: calc(100%-2 * 20px) / 3;
   background: var(--main-backroung-color);
   border: 1px solid #eeeeee;
 }
-.project-button:hover {
+.project-box:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
